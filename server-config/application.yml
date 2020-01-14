@@ -2,4 +2,5 @@
 
 info:
   foo: bar
+  foo2: my-bar
   someList: [2, 3, 7]
