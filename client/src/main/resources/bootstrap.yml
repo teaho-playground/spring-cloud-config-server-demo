@@ -1,8 +1,13 @@
 spring:
   application:
-    name: config-client-test
+    name: config-client
   cloud:
     config:
       env: default # optional
       label: master # optional
       uri: http://localhost:8888 # optional
+
+
+#info:
+#  foo: bar1
+#  someList: [2, 3, 7]

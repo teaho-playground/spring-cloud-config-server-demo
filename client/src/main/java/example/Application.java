@@ -24,7 +24,7 @@ public class Application {
      * http://localhost:8080/env/info.foo
      */
     @Bean
-    public CommandLineRunner printProperties(@Value("${info.foo}") final String fooProperty)  {
+    public CommandLineRunner printProperties(@Value("${info.foo}") final String fooProperty, @Value("${info.foo2}") String foo2)  {
         return args -> LOGGER.info("info.foo is: [{}]", fooProperty);
     }
 
